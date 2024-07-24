@@ -78,6 +78,7 @@ val LocaleLayoutMap = mapOf(
     "kk"     to   listOf("east_slavic", "east_slavic_phonetic"),
     "km_KH"  to   listOf("khmer"),
     "kn_IN"  to   listOf("kannada"),
+    "ko"     to   listOf("korean"),
     "ky"     to   listOf("east_slavic", "east_slavic_phonetic"),
     "lo_LA"  to   listOf("lao"),
     "lt"     to   QwertyVariants,

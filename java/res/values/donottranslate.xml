@@ -109,6 +109,8 @@
         <item>qwerty</item>
         <item>iw:SupportTouchPositionCorrection,EmojiCapable</item>
         <item>hebrew</item>
+        <item>ko:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>korean</item>
         <item>nb:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
         <item>nordic</item>
         <item>nl:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<merge
+    xmlns:latin="http://schemas.android.com/apk/res-auto"
+>
+    <switch>
+        <case latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted">
+            <!-- U+3143: "ㅃ" HANGUL LETTER SSANGPIEUP -->
+            <Key
+                latin:keySpec="&#x3143;"
+                latin:keyHintLabel="1"
+                latin:moreKeys="1"
+                />
+
+            <!-- U+3149: "ㅉ" HANGUL LETTER SSANGCIEUC -->
+            <Key
+                latin:keySpec="&#x3149;"
+                latin:keyHintLabel="2"
+                latin:moreKeys="2"
+                />
+
+            <!-- U+3138: "ㄸ" HANGUL LETTER SSANGTIKEUT -->
+            <Key
+                latin:keySpec="&#x3138;"
+                latin:keyHintLabel="3"
+                latin:moreKeys="3"
+                />
+
+            <!-- U+3132: "ㄲ" HANGUL LETTER SSANGKIYEOK -->
+            <Key
+                latin:keySpec="&#x3132;"
+                latin:keyHintLabel="4"
+                latin:moreKeys="4"
+                />
+
+            <!-- U+3146: "ㅆ" HANGUL LETTER SSANGSIOS -->
+            <Key
+                latin:keySpec="&#x3146;"
+                latin:keyHintLabel="5"
+                latin:moreKeys="5"
+                />
+            
+            <!-- U+315B: "ㅛ" HANGUL LETTER YO 
+                 U+005F: "_" LOW LINE -->
+            <Key
+                latin:keySpec="&#x315B;"
+                latin:keyHintLabel="6"
+                latin:moreKeys="6"
+                />
+
+            <!-- U+3155: "ㅕ" HANGUL LETTER YEO 
+                 U+003C: "<" LESS-THAN SIGN -->
+            <Key
+                latin:keySpec="&#x3155;"
+                latin:keyHintLabel="7"
+                latin:moreKeys="7"
+                />
+
+            <!-- U+3151: "ㅑ" HANGUL LETTER YA 
+                 U+003E: ">" GREATER-THAN SIGN -->
+            <Key
+                latin:keySpec="&#x3151;"
+                latin:keyHintLabel="8"
+                latin:moreKeys="8"
+                />
+            
+            <!-- U+3152 "ㅒ" HANGUL LETTER YAE -->
+            <Key
+                latin:keySpec="&#x3152;"
+                latin:keyHintLabel="9"
+                latin:moreKeys="9"
+                />
+            
+            <!-- U+3156: "ㅖ" HANGUL LETTER YE-->
+            <Key
+                latin:keySpec="&#x3156;"
+                latin:keyHintLabel="0"
+                latin:moreKeys="0"
+                />
+        </case>
+        <default>
+            <!-- U+3142: "ㅂ" HANGUL LETTER PIEUP
+                 U+3143: "ㅃ" HANGUL LETTER SSANGPIEUP -->
+            <Key
+                latin:keySpec="&#x3142;"
+                latin:keyHintLabel="&#x3143;"
+                latin:additionalMoreKeys="&#x3143;"
+                latin:moreKeys="1"
+                />
+
+            <!-- U+3148: "ㅈ" HANGUL LETTER CIEUC
+                 U+3149: "ㅉ" HANGUL LETTER SSANGCIEUC -->
+            <Key
+                latin:keySpec="&#x3148;"
+                latin:keyHintLabel="&#x3149;"
+                latin:additionalMoreKeys="&#x3149;"
+                latin:moreKeys="2"
+                />
+
+            <!-- U+3137: "ㄷ" HANGUL LETTER TIKEUT
+                 U+3138: "ㄸ" HANGUL LETTER SSANGTIKEUT -->
+            <Key
+                latin:keySpec="&#x3137;"
+                latin:keyHintLabel="&#x3138;"
+                latin:additionalMoreKeys="&#x3138;"
+                latin:moreKeys="3"
+                />
+
+            <!-- U+3131: "ㄱ" HANGUL LETTER KIYEOK
+                 U+3132: "ㄲ" HANGUL LETTER SSANGKIYEOK -->
+            <Key
+                latin:keySpec="&#x3131;"
+                latin:keyHintLabel="&#x3132;"
+                latin:additionalMoreKeys="&#x3132;"
+                latin:moreKeys="4"
+                />
+
+            <!-- U+3145: "ㅅ" HANGUL LETTER SIOS
+                 U+3146: "ㅆ" HANGUL LETTER SSANGSIOS -->
+            <Key
+                latin:keySpec="&#x3145;"
+                latin:keyHintLabel="&#x3146;"
+                latin:additionalMoreKeys="&#x3146;"
+                latin:moreKeys="5"
+                />
+
+            <!-- U+315B: "ㅛ" HANGUL LETTER YO 
+                 U+005F: "_" LOW LINE -->
+            <Key
+                latin:keySpec="&#x315B;"
+                latin:keyHintLabel="_"
+                latin:additionalMoreKeys="_"
+                latin:moreKeys="6"
+                />
+
+            <!-- U+3155: "ㅕ" HANGUL LETTER YEO 
+                 U+003C: "<" LESS-THAN SIGN -->
+            <Key
+                latin:keySpec="&#x3155;"
+                latin:keyHintLabel="&#x003C;"
+                latin:additionalMoreKeys="&#x003C;"
+                latin:moreKeys="7"
+                />
+
+            <!-- U+3151: "ㅑ" HANGUL LETTER YA 
+                 U+003E: ">" GREATER-THAN SIGN -->
+            <Key
+                latin:keySpec="&#x3151;"
+                latin:keyHintLabel="&#x003E;"
+                latin:additionalMoreKeys="&#x003E;"
+                latin:moreKeys="8"
+                />
+
+            <!-- U+3150: "ㅐ" HANGUL LETTER AE
+                 U+3132: "ㅒ" HANGUL LETTER YAE -->
+            <Key
+                latin:keySpec="&#x3150;"
+                latin:keyHintLabel="&#x3152;"
+                latin:additionalMoreKeys="&#x3152;"
+                latin:moreKeys="9"
+                />
+
+            <!-- U+3154: "ㅔ" HANGUL LETTER E
+                 U+3156: "ㅖ" HANGUL LETTER YE -->
+            <Key
+                latin:keySpec="&#x3154;"
+                latin:keyHintLabel="&#x3156;"
+                latin:additionalMoreKeys="&#x3156;"
+                latin:moreKeys="0"
+                />
+        </default>
+    </switch>
+</merge>

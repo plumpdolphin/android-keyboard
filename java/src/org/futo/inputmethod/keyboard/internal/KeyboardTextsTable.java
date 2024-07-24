@@ -2445,6 +2445,22 @@ public final class KeyboardTextsTable {
         "\u20b9"
     };
 
+    private static final String[] TEXTS_ko = {
+        "ko",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "\u20b9"
+    };
+
     private static final String[] TEXTS_ky = {
         "ky",
         null,
